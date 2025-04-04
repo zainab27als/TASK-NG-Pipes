@@ -9,5 +9,5 @@ import { User } from '../../data/users';
   styleUrl: './user.component.css'
 })
 export class UserComponent {
-  @Input() data?: User;
+  @Input() data!: User;
 }
